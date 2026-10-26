@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>До шаббатного года осталось</title>
+<style>
+  :root { color-scheme: dark; --red:#ff3038; --bg:#08090d; --panel:#11131a; --line:#292d38; --muted:#aeb3c0; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:radial-gradient(ellipse at top, #201018 0, var(--bg) 55%); color:#f5f5f7; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  main { width:min(1180px, 100%); margin:auto; padding:clamp(22px,5vw,64px) 20px 48px; }
+  header { text-align:center; margin-bottom:34px; }
+  .eyebrow { color:#d7d9e0; letter-spacing:.2em; font-size:.8rem; font-weight:700; text-transform:uppercase; }
+  h1 { margin:14px 0 8px; font-size:clamp(1.4rem,4vw,3rem); letter-spacing:.055em; line-height:1.15; }
+  .target { color:var(--muted); font-size:.95rem; }
+  .timer { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:10px; margin:28px auto 14px; }
+  .unit { min-width:0; padding:22px 8px 18px; border:1px solid #51222a; border-radius:14px; background:linear-gradient(180deg,#1c1016,#0d0e13); box-shadow:0 10px 35px #0005; }
+  .num { color:var(--red); font-size:clamp(1.5rem,4.3vw,3.6rem); font-variant-numeric:tabular-nums; font-weight:800; line-height:1.1; text-shadow:0 0 22px #ff30382a; overflow-wrap:anywhere; }
+  .label { color:#c3c5ce; font-size:.76rem; letter-spacing:.08em; margin-top:10px; text-transform:uppercase; }
+  .note { color:var(--muted); font-size:.84rem; text-align:center; line-height:1.6; margin:12px auto 48px; max-width:760px; }
+  h2 { font-size:clamp(1.35rem,3vw,2rem); margin:0 0 8px; }
+  .intro { color:var(--muted); margin:0 0 20px; line-height:1.6; }
+  .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:14px; background:#0d0f15; }
+  table { width:100%; border-collapse:collapse; min-width:780px; }
+  th,td { text-align:left; padding:15px 16px; border-bottom:1px solid var(--line); vertical-align:top; line-height:1.5; }
+  th { background:#171922; color:#f3c4c7; font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; }
+  tbody tr:last-child td { border-bottom:0; }
+  tbody tr:hover { background:#171119; }
+  .period { color:#ff777d; font-weight:750; white-space:nowrap; }
+  .tag { display:inline-block; border:1px solid #4a3038; color:#f0c4c7; padding:2px 7px; border-radius:999px; font-size:.75rem; white-space:nowrap; }
+  footer { color:#858b99; font-size:.78rem; line-height:1.65; margin-top:20px; }
+  @media(max-width:850px) { .timer { grid-template-columns:repeat(4,minmax(0,1fr)); } .unit:last-child { grid-column:span 2; } }
+  @media(max-width:430px) { .timer { grid-template-columns:repeat(2,minmax(0,1fr)); } .unit:last-child { grid-column:auto; } .unit { padding:18px 7px; } .label { font-size:.68rem; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Обратный отсчёт</div>
+    <h1>ДО ШАББАТНОГО ГОДА ОСТАЛОСЬ</h1>
+    <div class="target">До начала 5789 года по еврейскому календарю · шаббатный год 5789 (2028–2029)</div>
+  </header>
+
+  <section class="timer" aria-label="Обратный отсчёт до шаббатного года">
+    <div class="unit"><div class="num" id="years">—</div><div class="label">Годы</div></div>
+    <div class="unit"><div class="num" id="months">—</div><div class="label">Месяцы</div></div>
+    <div class="unit"><div class="num" id="weeks">—</div><div class="label">Недели</div></div>
+    <div class="unit"><div class="num" id="days">—</div><div class="label">Дни</div></div>
+    <div class="unit"><div class="num" id="hours">—</div><div class="label">Часы</div></div>
+    <div class="unit"><div class="num" id="minutes">—</div><div class="label">Минуты</div></div>
+    <div class="unit"><div class="num" id="seconds">—</div><div class="label">Секунды</div></div>
+  </section>
+  <p class="note">Отсчёт ведётся до ориентировочного начала еврейского года 5789 — 20 сентября 2028 года в 18:00 по местному времени устройства. Точное время наступления праздника зависит от местоположения и времени заката.</p>
+
+  <section>
+    <h2>Крупные события в шаббатные годы</h2>
+    <p class="intro">Подборка заметных мировых событий, произошедших в соответствующие семилетние циклы — от периода Первой мировой войны до современности. Даты шаббатных лет приведены по еврейскому календарю и приблизительно сопоставлены с гражданскими датами.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Шаббатный год</th><th>Период (примерно)</th><th>Событие</th><th>Категория</th></tr></thead>
+        <tbody>
+          <tr><td class="period">5677</td><td>1916–1917</td><td>Битва на Сомме и Верденская битва; в 1917 году США вступили в Первую мировую войну, началась Февральская и затем Октябрьская революции в России.</td><td><span class="tag">Война · революции</span></td></tr>
+          <tr><td class="period">5684</td><td>1923–1924</td><td>Гиперинфляция в Веймарской Германии достигла пика в 1923 году; в 1924 году был принят план Дауэса для урегулирования германских репараций.</td><td><span class="tag">Экономика</span></td></tr>
+          <tr><td class="period">5691</td><td>1930–1931</td><td>Великая депрессия распространилась по миру; в 1931 году Япония начала захват Маньчжурии.</td><td><span class="tag">Кризис · конфликт</span></td></tr>
+          <tr><td class="period">5698</td><td>1937–1938</td><td>Началась Вторая японо-китайская война; в 1938 году произошли аншлюс Австрии и Мюнхенское соглашение.</td><td><span class="tag">Война · дипломатия</span></td></tr>
+          <tr><td class="period">5705</td><td>1944–1945</td><td>Высадка союзников в Нормандии (D-Day), освобождение Парижа, капитуляция Германии и окончание Второй мировой войны в 1945 году.</td><td><span class="tag">Высадка · окончание войны</span></td></tr>
+          <tr><td class="period">5712</td><td>1951–1952</td><td>Вступил в силу договор о создании Европейского объединения угля и стали; в 1952 году состоялась первая успешная британская атомная бомба-испытание.</td><td><span class="tag">Политика · технологии</span></td></tr>
+          <tr><td class="period">5719</td><td>1958–1959</td><td>Создано Европейское экономическое сообщество; Кубинская революция завершилась победой революционных сил в январе 1959 года.</td><td><span class="tag">Интеграция · революция</span></td></tr>
+          <tr><td class="period">5726</td><td>1965–1966</td><td>Эскалация войны во Вьетнаме; в 1966 году началась китайская Культурная революция.</td><td><span class="tag">Война · политика</span></td></tr>
+          <tr><td class="period">5733</td><td>1972–1973</td><td>Война Судного дня в октябре 1973 года и нефтяное эмбарго, вызвавшее мировой энергетический кризис.</td><td><span class="tag">Война · кризис</span></td></tr>
+          <tr><td class="period">5740</td><td>1979–1980</td><td>Исламская революция в Иране; вторжение СССР в Афганистан в декабре 1979 года; начало нового этапа нефтяного кризиса.</td><td><span class="tag">Революция · война</span></td></tr>
+          <tr><td class="period">5747</td><td>1986–1987</td><td>Катастрофа шаттла «Челленджер» и авария на Чернобыльской АЭС в 1986 году; обвал мировых фондовых рынков в октябре 1987 года.</td><td><span class="tag">Катастрофы · финансы</span></td></tr>
+          <tr><td class="period">5754</td><td>1993–1994</td><td>Вступили в силу Маастрихтский договор и создание Европейского союза; в 1994 году завершился апартеид в ЮАР с первыми всеобщими выборами.</td><td><span class="tag">Политика · общество</span></td></tr>
+          <tr><td class="period">5761</td><td>2000–2001</td><td>Крах доткомов продолжился; теракты 11 сентября 2001 года привели к началу войны в Афганистане.</td><td><span class="tag">Финансы · война</span></td></tr>
+          <tr><td class="period">5768</td><td>2007–2008</td><td>Мировой финансовый кризис: кризис ипотечного рынка США, банкротство Lehman Brothers и резкое падение фондовых рынков в 2008 году.</td><td><span class="tag">Финансовый кризис</span></td></tr>
+          <tr><td class="period">5775</td><td>2014–2015</td><td>Аннексия Крыма Россией и начало войны на востоке Украины в 2014 году; массовая миграционная и гуманитарная ситуация в Европе в 2015 году.</td><td><span class="tag">Война · кризис</span></td></tr>
+          <tr><td class="period">5782</td><td>2021–2022</td><td>Полномасштабное вторжение России в Украину в феврале 2022 года; энергетический и продовольственный шоки, ускорение мировой инфляции.</td><td><span class="tag">Война · экономика</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>Примечание: таблица — обзорная подборка, а не полный перечень событий. В еврейском календаре год начинается осенью, поэтому один шаббатный год охватывает части двух гражданских лет. Некоторые события, указанные в строке, могут приходиться на переходные месяцы соответствующего цикла; для исторического исследования следует сверять точные даты с календарём и первичными источниками.</footer>
+  </section>
+</main>
+<script>
+  // Начало Рош ха-Шана 5789 задано ориентировочно: местное время устройства.
+  const target = new Date(2028, 8, 20, 18, 0, 0);
+  const ids = ["years","months","weeks","days","hours","minutes","seconds"];
+  const pad = n => String(n).padStart(2, "0");
+  function update() {
+    const now = new Date();
+    let remaining = Math.max(0, target.getTime() - now.getTime());
+    const totalSeconds = Math.floor(remaining / 1000);
+    const totalDays = Math.floor(totalSeconds / 86400);
+    // Календарные годы и месяцы оцениваются по длине периода; недели показывают остаток после месяцев/лет.
+    let cursor = new Date(now);
+    let years = 0, months = 0;
+    if (target > now) {
+      while (new Date(cursor.getFullYear()+1, cursor.getMonth(), cursor.getDate(), cursor.getHours(), cursor.getMinutes(), cursor.getSeconds()) <= target && years < 100) {
+        cursor.setFullYear(cursor.getFullYear()+1); years++;
+      }
+      while (new Date(cursor.getFullYear(), cursor.getMonth()+1, cursor.getDate(), cursor.getHours(), cursor.getMinutes(), cursor.getSeconds()) <= target && months < 12) {
+        cursor.setMonth(cursor.getMonth()+1); months++;
+      }
+    }
+    const afterCalendar = Math.max(0, target.getTime() - cursor.getTime());
+    const remainderDays = Math.floor(afterCalendar / 86400000);
+    const weeks = Math.floor(remainderDays / 7);
+    const days = remainderDays % 7;
+    const hours = Math.floor((afterCalendar % 86400000) / 3600000);
+    const minutes = Math.floor((afterCalendar % 3600000) / 60000);
+    const seconds = Math.floor((afterCalendar % 60000) / 1000);
+    const values = [years, months, weeks, days, hours, minutes, seconds];
+    ids.forEach((id, i) => document.getElementById(id).textContent = i < 4 ? String(values[i]) : pad(values[i]));
+  }
+  update();
+  setInterval(update, 1000);
+</script>
+</body>
+</html>
